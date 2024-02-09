@@ -210,6 +210,102 @@ nav.navbar.bootsnav {
     font-size: 17px;
 }
 
+
+.mobiletop {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(65,73,89,1);
+    border-bottom: 1px solid rgba(134, 142, 163, 0.25);
+  }
+  
+  .mobiletitle {
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 19px;
+  }
+  
+  #menuclick {
+    left: 5px;
+    position: absolute;
+    z-index: 123456;
+    padding: 15px;
+  }
+  
+  .mobile {
+    display: none;
+    width: 100vw;
+    position: fixed;
+    top: 8px;
+    z-index: 99999999;
+  }
+  
+  .mobilecontainer {
+    display: none;
+    position: fixed;
+    width: 0px;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(65,73,89,1);
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+  }
+  
+  .menucontent {
+    display: flex;
+    z-index: 1234567;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .mobileitems {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
+  }
+
+  .mobileitems a {
+    padding: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-transform: none;
+  }
+
+  @media only screen and (max-width: 890px) {
+    .menu {
+      display: none;
+    }
+  
+    .mobile {
+      display: block;
+    }
+
+    .containernav {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .containernav li a {
+        background-color: red;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .initial li a {
+        font-size: 13px;
+    }
+  }
+  
+
 .vascotest a {
     font-size: 13px;
 }
