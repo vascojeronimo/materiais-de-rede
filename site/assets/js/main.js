@@ -1,12 +1,32 @@
 const vasco = document.getElementsByClassName("vascotest")[0];
+const initial = document.getElementsByClassName("initial")[0];
 
 function onMouseHover() {
     vasco.style.display = "flex"
 }
 
-function onMouseLeave() {
-    vasco.style.display = "none"
-}
+let cancel_leave = false
+
+vasco.addEventListener("mouseenter", (e) => {
+    vasco.style.display = "flex";
+    cancel_leave = true
+});
+
+vasco.addEventListener("mouseleave", (e) => {
+    vasco.style.display = "none";
+    if(cancel_leave) cancel_leave = false
+})
+
+initial.addEventListener("mouseleave", (e) => {
+    console.log(e.target == vasco, e.target.parentNode == vasco)
+    setTimeout(() => {
+        if(cancel_leave) return;
+        if(e.target.parentNode != vasco) {
+            vasco.style.display = "none"
+        }
+    }, 1000)
+
+});
 
 const menu = document.getElementById("menuclick")
 
