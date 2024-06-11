@@ -1,0 +1,38 @@
+head - em um documento HTML é onde você coloca as informações meta sobre o documento. Essa seção contém elementos que não são diretamente exibidos na página, mas que são importantes para o funcionamento, a formatação e o SEO da página.
+
+meta - Os metadados não são exibidos diretamente na página, mas são importantes para a otimização de motores de busca, a definição de codificação de caracteres, a configuração de viewport para dispositivos móveis, entre outras funções. 
+
+link - para por links
+
+rel - especifica a relação entre o documento atual e o recurso vinculado.
+
+href - é usado principalmente em tags de link, como <a>, <link>, e <area>, para especificar o URL ou caminho do recurso vinculado. 
+
+type - é utilizado em várias tags para especificar o tipo de conteúdo a que o elemento se refere.
+
+body - Tudo o que aparece dentro da tag <body> é renderizado pelo navegador e exibido ao usuário. Este conteúdo pode incluir texto, imagens, links, formulários, vídeos, entre outros elementos.
+
+div - É um contêiner genérico que permite organizar e estilizar o conteúdo da página. 
+
+a - é usada para criar hyperlinks, que são links clicáveis que levam a outras páginas, recursos, ou seções da mesma página. O principal atributo da tag <a> é o href, que especifica o destino do link.
+
+ul - é usada para criar uma lista não ordenada. Em uma lista não ordenada, os itens são marcados com pontos em vez de números ou letras.
+
+li - é usada para criar um item numa lista. Esta tag é usada dentro de elementos <ul> ou <ol>.
+
+nav - é usada para definir uma seção de navegação em um documento HTML. Ela é usada para agrupar links de navegação, como menus de navegação principal ou secundário, links para outras páginas do site, links para categorias de conteúdo, entre outros.
+
+section - é usada para representar uma seção genérica num documento HTML. Ela é usada para agrupar conteúdo relacionado semanticamente numa página da web.
+
+script -  é usada para incorporar scripts, geralmente JavaScript, num documento HTML. Esses scripts podem ser usados para adicionar interatividade, manipular o conteúdo da página, realizar validações de formulários e muito mais.
+
+br - é usada para criar uma quebra de linha dentro de um texto ou conteúdo. Ela é uma tag vazia, o que significa que não tem uma tag de fechamento correspondente e não contém nenhum conteúdo entre tags.
+
+h4 - é usada para definir um cabeçalho de nível 4 num documento HTML. Ela representa um nível hierárquico de título, onde <h1> é o título mais importante e <h6> é o menos importante.
+
+span - é uma tag de marcação usada para aplicar estilos ou manipular partes específicas de texto em um documento HTML. Ela é usada para agrupar partes de texto ou elementos em linha, sem impor nenhuma mudança estrutural.
+
+p - é usada para definir um parágrafo de texto. Ela é uma das tags mais comuns e é usada para separar blocos de texto em parágrafos distintos.
+
+footer - é usada para definir o rodapé de um documento HTML ou de uma seção específica de conteúdo. Geralmente, o rodapé contém informações como informações de contato, links para seções relacionadas, créditos, direitos autorais e outros detalhes que são relevantes para o conteúdo da página.
+
